@@ -1,5 +1,7 @@
 cnpg:
   # renovate: datasource=docker depName=ghcr.io/cloudnative-pg/postgresql
+  - "18.3"
+  # renovate: datasource=docker depName=ghcr.io/cloudnative-pg/postgresql
   - "14.22"
   # renovate: datasource=docker depName=ghcr.io/cloudnative-pg/postgresql
   - "15.17"
@@ -7,8 +9,6 @@ cnpg:
   - "16.13"
   # renovate: datasource=docker depName=ghcr.io/cloudnative-pg/postgresql
   - "17.9"
-  # renovate: datasource=docker depName=ghcr.io/cloudnative-pg/postgresql
-  - "18.3"
 vectorchord:
   # renovate: datasource=github-releases depName=tensorchord/VectorChord
   - "1.1.1"
