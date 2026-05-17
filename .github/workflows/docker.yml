@@ -124,6 +124,7 @@ jobs:
           build-args: |
             CNPG_TAG=${{ matrix.cnpg }}
             VECTORCHORD_TAG=${{ matrix.vectorchord }}
+            PG_JSONSCHEMA_VERSION=${{ matrix.pg_jsonschema }}
 
   results:
       if: ${{ always() }}

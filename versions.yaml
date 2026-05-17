@@ -12,3 +12,6 @@ cnpg:
 vectorchord:
   # renovate: datasource=github-releases depName=tensorchord/VectorChord
   - "1.1.1"
+pg_jsonschema:
+  # renovate: datasource=github-releases depName=supabase/pg_jsonschema
+  - "0.3.4"
